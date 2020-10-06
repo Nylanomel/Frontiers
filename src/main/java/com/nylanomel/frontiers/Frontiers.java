@@ -17,11 +17,6 @@ public class Frontiers implements ModInitializer {
 			new Identifier("frontiers", "general"),
 			() -> new ItemStack(Blocks.COBBLESTONE));
 
-	public static final ItemGroup OTHER_GROUP = FabricItemGroupBuilder.create(
-			new Identifier("frontiers", "other"))
-			.icon(() -> new ItemStack(Items.BOWL))
-			.build();
-
 	public static final Item FABRIC_ITEM = new Item(new Item.Settings().group(Frontiers.ITEM_GROUP));
 
 	@Override
