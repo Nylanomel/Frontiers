@@ -22,8 +22,9 @@ import net.minecraft.util.math.Vec3d;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 
-public class FabricDimensionTest implements ModInitializer {
-    private static RegistryKey<World> dimensionRegistryKey;
+public class FabricDimensionTest //implements ModInitializer
+{
+    /*private static RegistryKey<World> dimensionRegistryKey;
 
     @Override
     public void onInitialize() {
@@ -59,5 +60,5 @@ public class FabricDimensionTest implements ModInitializer {
         destination.setBlockState(new BlockPos(0, 100, 0), Blocks.DIAMOND_BLOCK.getDefaultState());
         destination.setBlockState(new BlockPos(0, 101, 0), Blocks.TORCH.getDefaultState());
         return new BlockPattern.TeleportTarget(new Vec3d(0.5, 101, 0.5), Vec3d.ZERO, 0);
-    }
+    }*/
 }
