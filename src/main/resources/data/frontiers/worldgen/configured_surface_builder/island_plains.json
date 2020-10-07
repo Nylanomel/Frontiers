@@ -11,7 +11,7 @@
       "Name": "minecraft:dirt"
     },
     "underwater_material": {
-      "Name": "minecraft:stone"
+      "Name": "frontiers:skystone"
     }
   }
 }
