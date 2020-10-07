@@ -1,0 +1,13 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "seed": 0,
+      "type": "minecraft:fixed",
+      "biome": "frontiers:island_plains"
+    },
+    "seed": 0,
+    "settings": "frontiers:shattered_islands"
+  },
+  "type": "minecraft:overworld"
+}

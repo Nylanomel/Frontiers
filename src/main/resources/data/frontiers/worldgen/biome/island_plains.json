@@ -1,0 +1,33 @@
+{
+  "precipitation": "none",
+  "category": "plains",
+  "depth": 0.1,
+  "scale": 1,
+  "temperature": 0.6,
+  "temperature_modifier": "none",
+  "downfall": 0,
+  "effects": {
+    "fog_color": 11599871,
+    "foliage_color": 16757304,
+    "grass_color": 16757304,
+    "sky_color": 11599615,
+    "water_color": 2250618,
+    "water_fog_color": 933212,
+    "grass_color_modifier": "none"
+  },
+  "surface_builder": "frontiers:island_plains",
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features":[
+    [
+      "minecraft:ore_coal"
+    ]
+  ],
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "player_spawn_friendly": false
+}
